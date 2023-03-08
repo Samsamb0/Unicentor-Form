@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+header {
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20vh;
+  height: 15vh;
+  color: antiquewhite;
+  align-items: center;
+  width: clamp(30vw, 200px, 40vw);
+}
+#left-column {
+  background-image: url(../images/left_column.gif);
+  background-size: 100% 100%;
+
+  width: clamp(30vw, 200px, 40vw);
+}
+header img {
+  height: 90%;
+}
+h1 {
+  font-size: 3em;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  margin: 0px;
+}
