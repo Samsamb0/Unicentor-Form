@@ -4,7 +4,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-family: "Oswald", sans-serif;
+
   box-sizing: border-box;
 }
 body {
@@ -24,15 +24,32 @@ header {
 #left-column {
   background-image: url(../images/left_column.gif);
   background-size: 100% 100%;
-
-  width: clamp(30vw, 200px, 40vw);
+  width: clamp(30vw, 600px, 40vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 header img {
   height: 90%;
 }
 h1 {
   font-size: 3em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   margin: 0px;
 }
+p {
+  text-align: center;
+  font-size: 1.4em;
+  text-shadow: rgb(255, 115, 0) 1px 0 10px;
+}
+footer {
+  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/*left-column*/
